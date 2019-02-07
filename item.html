@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Item</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Item form</h1>
+        </div>
+        <form method="post" action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" name="surname" required>
+            </div>
+            <div class="radio">
+                <span>Sex</span>
+                <label>
+                    <input type="radio" name="sex" value="Male">Male
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="Male">Female
+                </label>
+                <label>
+                    <input type="radio" name="sex" value="Bibary">Binary
+                </label>
+            </div>
+            <div>
+                <label for="height">Heigth</label>
+                <input type="text" name="height">
+            </div>
+            <div>
+                <label for="weight">Weight</label>
+                <input type="text" name="weight">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country">
+                    <option>Choose the country</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Poland">Ukraine</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Poland">Poland</option>
+                </select>
+            </div>
+            <button type="submit">Delete</button>
+            <button type="submit">Change</button>
+        </form>
+    </div>
+</body>
+</html>
