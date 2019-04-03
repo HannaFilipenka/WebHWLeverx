@@ -1,0 +1,84 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	font: 14px/1.5 'PT Sans', Arial, Helvetica, sans-serif;
+	color:#333;
+}
+h1{
+	font-size: 2em;
+}
+.clear{
+	*zoom:1;
+}
+.clear:before, .clear:after{
+	content:'';
+	display:table;
+	line-height: 0;
+}
+.clear:after{
+	clear:both;
+}
+.wrapper{
+	width: 50%;
+	min-width: 670px;
+	margin: 20px auto;
+}
+#form-fields-container{
+	border:1px solid #e3e3e3;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+			border-radius: 3px;
+	padding: 20px;
+}
+
+#submit-container{
+	background: #e3e3e3;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+			border-radius: 4px;
+	margin-top: 7px;
+	height: 21px;
+	padding: 10px 20px;
+}
+ul{
+	margin-bottom: 33px;
+}
+ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+	height: 24px;
+}
+input{
+	width: 213px;
+	height: 22px;
+	border:1px solid #C1C1C1;
+	padding: 0 5px;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+label{
+	display: inline-block;
+	vertical-align: middle;
+	width: 82px;
+}
+.not-check{
+	text-indent: 24px;
+	color:red;
+	background: url(https://zima43e.storage.yandex.net/rdisk/06824d76c9ccbfdd53947ddeda7ff578bb717b39af501983f481853160993d3a/inf/IqFA8T5yC1WwbDyGXMbXAzJwOZUsTeJMJan3Nvpzqbam_8I5o__dUYMeHFbLrRcGYLBW9wgiqJn2rG3g9pASHA==?uid=0&filename=not-check.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=5a3df8c25a357b02b0c30e201079cfaa&force_default=no) left center no-repeat;
+}
+#submit-container{
+	height: 21px;
+	width: 153px;
+	outline: none;
+	cursor: pointer;
+	border:none;
+	padding: 0 !important;
+    margin: 0 82px;
+    text-align: center;
+	background: url(https://zima33d.storage.yandex.net/rdisk/b57f593d0ccfba36e5c2ee9a532fde0a93e98456d88e01e1aad9b92d3c0a55bf/inf/Ur0S943RrYiPE_gSWfnlrx5UG1u8yIQxikZhJQ8LdFSDUMprQz2pOuzPuZrBsyPAYPDmbUAg7p_Rvuvp0jQ_TQ==?uid=0&filename=button-submit.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&rtoken=5a3df8c25a357b02b0c30e201079cfaa&force_default=no) no-repeat;
+}
+
+button{}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title>HW5</title>
+</head>
+<body>
+        <div class="wrapper">
+                <form id="form">
+                    <div id="form-fields-container">
+                        <ul>
+                            <li>
+                                <label for="userName">Username</label>
+                                <input type="text" name="userName" id="userName">
+                                <span></span>
+                            </li>
+                            <li>
+                                <label for="accountNumber">Number</label>
+                                <input type="text" name="accountNumber" id="accountNumber">
+                                <span></span>
+                            </li>
+                            <li>
+                                <label for="pin">PIN</label>
+                                <input type="text" name="pin" id="pin">
+                                <span></span>
+                            </li>
+                            <li>
+                                    <input type="radio" name="account" value="currentAccount">Current Account<br>
+                                    <input type="radio" name="account" value="savingsAccount">Savings Account<br>
+                                    <span></span>
+                                </li>
+                        </ul>
+                    </div>
+                </form>
+                <button onclick="saveAccountInfo()">Save</button>
+            </div>
+        
+    
+</body>
+</html>
